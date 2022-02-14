@@ -80,15 +80,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\next-512x512-2882302.png" />
+    <None Include="Resources\next1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\prev-512x512-2882308.png" />
+    <None Include="Resources\refresh1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\update-512x512-2882316.png" />
+    <None Include="Resources\prev1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,9 +12,11 @@ namespace Basic_Browser_Project
 {
     public partial class Form1 : Form
     {
+        string Url = string.Empty;  // deklariranje Url varijable za kasnije korištenje
         public Form1()
         {
             InitializeComponent();
+            Url = "https://www.google.hr/"; // postavljanje Url-a na određenu stranicu
         }
     }
 }

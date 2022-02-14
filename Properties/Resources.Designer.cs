@@ -63,9 +63,9 @@ namespace Basic_Browser_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap next_512x512_2882302 {
+        internal static System.Drawing.Bitmap next1 {
             get {
-                object obj = ResourceManager.GetObject("next_512x512_2882302", resourceCulture);
+                object obj = ResourceManager.GetObject("next1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Basic_Browser_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap prev_512x512_2882308 {
+        internal static System.Drawing.Bitmap prev1 {
             get {
-                object obj = ResourceManager.GetObject("prev_512x512_2882308", resourceCulture);
+                object obj = ResourceManager.GetObject("prev1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Basic_Browser_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap update_512x512_2882316 {
+        internal static System.Drawing.Bitmap refresh1 {
             get {
-                object obj = ResourceManager.GetObject("update_512x512_2882316", resourceCulture);
+                object obj = ResourceManager.GetObject("refresh1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
