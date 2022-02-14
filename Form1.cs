@@ -35,10 +35,10 @@ namespace Basic_Browser_Project
             {
                 webBrowser1.GoBack();
             }
-            else
-            {
-                btnBack.Enabled = false;
-            }
+            //else
+            //{
+            //    btnBack.Enabled = false;
+            //}
         }
 
         private void btnForward_Click(object sender, EventArgs e)
@@ -48,10 +48,10 @@ namespace Basic_Browser_Project
             {
                 webBrowser1.GoForward();
             }
-            else
-            {
-                btnForward.Enabled = false;
-            }
+            //else                           \\
+            //{                               \\    Nakon prvog klika radi disable
+            //    btnForward.Enabled = false; //
+            //}                              //
 
         }
 
@@ -67,18 +67,12 @@ namespace Basic_Browser_Project
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            string webUrl = textBox1.Text.Trim();
-            webBrowser1.Navigate(webUrl);
+            webBrowser1.Navigate(textBox1.Text);
         }
 
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
 
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
